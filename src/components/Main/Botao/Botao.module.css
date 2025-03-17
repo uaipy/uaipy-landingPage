@@ -1,0 +1,18 @@
+@layer botao;
+
+@layer botao {
+    .botaoDegrade {
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(118,4,17,1) 44%, rgba(3,8,32,0.9472163865546218) 100%);
+        color: var(--light-text-color);
+        padding: .6rem 2rem;
+        border-radius: 10px;
+    }
+
+    .botaoTransparente {
+        color: var(--dark-bg-color);
+        font-weight: 700;
+        font-size: 1.5rem;
+        border-block-end: 3px solid var(--dark-bg-color);
+        padding-block-end: .3rem;
+    }
+}

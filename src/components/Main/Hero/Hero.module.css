@@ -1,0 +1,46 @@
+@layer hero;
+
+@layer hero {
+    .heroContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-inline: 1rem;
+        margin-block-end: 3rem;
+
+        > div {
+            width: 100%;
+            max-width: 450px;
+            margin: auto;
+            padding-block-end: 4rem;
+            border-block-end: 1px solid var(--dark-text-color);
+        }
+
+        h2, h1 {
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-weight: 400;
+            font-size: .9rem;
+            letter-spacing: 2px;
+            margin-block-end: 1rem;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            font-weight: 500;
+            line-height: normal;
+            margin-block-end: 1.2rem;
+        }
+
+        p {
+            max-width: 450px;
+            margin-block-end: 2rem;
+        }
+
+        img {
+            display: none;
+        }
+    }
+}

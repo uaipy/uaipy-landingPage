@@ -1,0 +1,25 @@
+@layer footer;
+@layer footer {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-inline: 1rem;
+        margin-block-end: 2rem;
+
+        div {
+            width: 100%;
+            max-width: 450px;
+            margin: auto;
+            border-block-end: 1px solid var(--dark-text-color);
+            margin-block-end: 1rem;
+        }
+
+        > p {
+            text-align: center;
+            font-size: .9rem;
+            font-style: italic;
+            margin: auto;
+        }
+    }
+}

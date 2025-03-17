@@ -1,0 +1,30 @@
+.navHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
+
+.navHeaderContainer img {
+    width: 200px;
+}
+
+.navHeaderContainer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navHeaderContainer li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navHeaderContainer a:link, .navHeaderContainer a:visited, .navHeaderContainer a:active {
+    text-decoration: none;
+    color: black;
+}

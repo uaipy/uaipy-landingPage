@@ -1,0 +1,46 @@
+@layer reset, base;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@layer reset {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+
+  html,
+  body {
+        height: 100%;
+        overflow-x: hidden;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+@layer base {
+  :root {
+    --dark-bg-color: #030820;
+    --light-bg-color: #FFFFFF;
+    --dark-text-color: #121212;
+    --light-text-color: #F6F6F6;
+    --primary-color: #FF0000;
+    --secondary-color: #2C4B87;
+    --transition-red: #AA1123;
+    --grey-color: #D9D9D9;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+}

@@ -1,0 +1,14 @@
+@layer cardFuncionalidade;
+
+@layer cardFuncionalidade {
+    span {
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: var(--dark-bg-color);
+        position: relative;
+        bottom: 30px;
+        /* left: 50%; */
+    }
+}

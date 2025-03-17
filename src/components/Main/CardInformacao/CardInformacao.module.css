@@ -1,0 +1,39 @@
+@layer cardInformacao;
+@layer cardInformacao {
+    .cardInformacao {
+        width: 100%;
+        max-width: 450px;
+        margin: auto;
+        text-align: center;
+
+        h2, h3 {
+            text-transform: uppercase;
+        }
+        
+        h2 {
+            font-size: 2.2em;
+            font-weight: 500;
+            line-height: normal;
+            margin-block-end: 1.2rem;
+        }
+        
+        h3 {
+            font-weight: 400;
+            font-size: .9rem;
+            letter-spacing: 2px;
+            margin-block-end: 1rem;
+        }
+
+        p {
+            text-align: justify;
+            margin-block-end: 2rem;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 100%;
+            margin: auto;
+            margin-block-end: 2rem;
+        }
+    }
+}

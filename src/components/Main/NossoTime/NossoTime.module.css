@@ -1,0 +1,10 @@
+@layer time;
+@layer time {
+    .nossoTime {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        padding-block-end: 2rem;
+        margin-block-start: 4rem;
+    }
+}

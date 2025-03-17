@@ -1,0 +1,15 @@
+@layer conceito;
+
+@layer conceito {
+    .conceitoContainer {
+        display: flex;
+        flex-direction: column;
+
+        padding-inline: 1rem;
+        padding-block-end: 4rem;
+
+        > div:nth-of-type(2) {
+            display: none;
+        }
+    }
+}
