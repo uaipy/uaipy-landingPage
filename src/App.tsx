@@ -1,13 +1,11 @@
 import { ThemeProvider } from "@/contexts";
 
 function App() {
-
-  return (
-    <ThemeProvider>
+    return (
+        <ThemeProvider>
       <h1>UAI PY LP</h1>
-    </ThemeProvider>
-
-  )
+        </ThemeProvider>
+    );
 }
 
-export default App
+export default App;
