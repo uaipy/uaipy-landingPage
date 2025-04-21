@@ -1,9 +1,12 @@
 import { ThemeProvider } from "@/contexts";
+import { Features } from "./components/sections/Features";
+import { Hero } from "./components/sections/Hero";
 
 function App() {
     return (
         <ThemeProvider>
-      <h1>UAI PY LP</h1>
+          <Hero />
+          {/* <Features /> */}
         </ThemeProvider>
     );
 }
