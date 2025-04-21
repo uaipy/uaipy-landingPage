@@ -38,6 +38,7 @@
     --sidebar-border: #EBEBEB; 
     --sidebar-ring: #B4B4B4;  
     --description: #aaa8a8;
+    --dark-blue: #030820;
   }
   
   .dark {
@@ -112,6 +113,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-description: var(--description);
+  --color-uaipy-primary: var(--dark-blue);
 }
 
 @layer base {
@@ -120,5 +122,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    @apply font-sans;
   }
 }
