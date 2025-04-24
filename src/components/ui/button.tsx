@@ -17,15 +17,14 @@ const buttonVariants = cva(
                     "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
                 secondary:
                     "bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
-                ghost: "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
+                ghost: "text-gray-900 font-bold text-2xl border-b-[3px] border-gray-900 pb-1",
                 link: "text-primary underline-offset-4 hover:underline",
-                gradient:
-                    "bg-gradient-to-r from-red-500 via-red-700 to-gray-900 text-primary-foreground shadow-xs hover:bg-primary/90 dark:text-white",
+                gradient: "bg-[linear-gradient(90deg,_rgba(255,0,0,1)_0%,_rgba(118,4,17,1)_44%,_rgba(3,8,32,0.95)_100%)] text-white rounded-[10px] hover:text-uaipy-primary hover:bg-none hover:border-2 hover:border-uaipy-primary hover:transition duration-200",
             },
             size: {
                 default: "h-9 px-4 py-2 has-[>svg]:px-3",
                 sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
-                lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
+                lg: "h-10 rounded-md px-10 has-[>svg]:px-4",
                 icon: "size-9",
             },
         },
