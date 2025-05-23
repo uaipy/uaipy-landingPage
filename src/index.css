@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
@@ -122,6 +124,6 @@
   }
   body {
     @apply bg-background text-foreground;
-    @apply font-sans;
+    font-family: 'Inter', sans-serif;
   }
 }
