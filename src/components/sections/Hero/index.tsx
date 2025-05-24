@@ -32,16 +32,16 @@ export const Hero = () => {
                     </div>
                 </div>
             </nav>
-            <div className="mt-5 border-b-1 border-uaipy-primary pb-10 md:flex md:justify-between items-center md:mt-10 lg:border-b-2">
+            <div className="mt-5 border-b-1 border-uaipy-primary pb-14 md:flex md:justify-between items-center md:mt-10 lg:border-b-2">
                 <div className="md:max-w-[490px] md:mr-10 lg:max-w-[600px] xl:mr-15">
                     <div className="flex flex-col-reverse">
                         <h1 className="text-2xl uppercase mb-5 md:text-3xl md:pr-7 lg:pr-0 lg:text-5xl">Seja bem-vindo(a) ao universo UAI.py</h1>
                         <h2 className="uppercase text-xs tracking-widest mb-2">Chamada para o projeto</h2>
                     </div>
-                    <p className="text-sm mb-2 lg:text-base">Saiba mais sobre o nosso projeto, que surgiu a partir da iniciativa “Além do Horizonte” da Receita Federal do Brasil, possibilitando a criação das ideias aqui apresentadas.</p>
-                    <Button variant="gradient" size="lg" className="mt-4 cursor-pointer w- ">Conheça+</Button>
+                    <p className="text-sm mb-2 lg:text-base max-w-[460px]">Saiba mais sobre o nosso projeto, que surgiu a partir da iniciativa “Além do Horizonte” da Receita Federal do Brasil, possibilitando a criação das ideias aqui apresentadas.</p>
+                    <Button variant="gradient" size="lg" className="mt-4 cursor-pointer">Conheça+</Button>
                 </div>
-                <img src="https://img.freepik.com/fotos-gratis/representacao-da-experiencia-do-utilizador-e-design-da-interface_23-2150169850.jpg?t=st=1745067658~exp=1745071258~hmac=e1f766fcc3383de1af6425d43c5ac73c9d46c9889b38542f2bdd3d815884c285&w=1060" alt="" className="hidden md:block md:w-80 md:h-80 md:rounded-full md:object-cover lg:w-90 lg:h-90 xl:w-110 xl:h-110"/>
+                <img src="https://img.freepik.com/fotos-gratis/representacao-da-experiencia-do-utilizador-e-design-da-interface_23-2150169850.jpg?t=st=1745067658~exp=1745071258~hmac=e1f766fcc3383de1af6425d43c5ac73c9d46c9889b38542f2bdd3d815884c285&w=1060" alt="" className="hidden md:block md:w-80 md:h-80 md:rounded-full md:object-cover lg:w-90 lg:h-90 xl:w-100 xl:h-100"/>
             </div>
         </section>
     )
