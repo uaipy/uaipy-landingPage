@@ -9,7 +9,7 @@ function App() {
         <ThemeProvider>
           <Hero />
           <ProjectConcept />
-          {/* <Features /> */}
+          <Features />
           <Footer />
         </ThemeProvider>
     );
