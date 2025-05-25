@@ -21,7 +21,7 @@ const metrics = [
 
 export const ProjectConcept = () => {
     return (
-        <section className="px-10 md:px-15 md:my-10 lg:px-20 xl:px-35">
+        <section className="px-10 my-16 md:px-15 md:my-10 lg:px-20 xl:px-35">
             {/* add fade-in-up animation to metrics  */}
             <div className="hidden md:flex md:justify-center md:gap-20 md:mb-16 lg:gap-36 xl:gap-44">
                 {metrics.map(metric => (

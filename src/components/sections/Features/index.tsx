@@ -64,19 +64,19 @@ export const Features = () => {
     }
 
     return (
-      <section className="bg-zinc-500 py-8 sm:py-12 md:py-16 px-4">
-          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="px-10 mb-16 md:px-15 lg:px-20 xl:px-35">
+          <div className="bg-[#D9D9D9] rounded-lg py-10 container mx-auto max-w-7xl px-4 sm:px-8 lg:px-10">
               <div className="max-w-4xl mx-auto text-center">
-                  <h1 className="text-3xl sm:text-4xl font-bold text-primary">
+                  <h1 className="text-2xl sm:text-4x font-bold text-primary">
                       CONHEÇA NOSSAS APLICAÇÕES!
                   </h1>
-                  <p className="text-base sm:text-lg mt-4 text-primary">
+                  <p className="text-sm mt-8 text-primary lg:text-base">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius voluptatum soluta magni deserunt corrupti voluptates neque molestias aperiam rerum? Fuga iusto eos porro at tempore quidem et officiis nostrum.
                   </p>
               </div>
               
-              <div className="mt-16 max-w-7xl mx-auto">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              <div className="mt-12 max-w-7xl mx-auto">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                       {features.map((feature) => (
                           <Card key={feature.id}>
                               <Card.Header>
