@@ -64,7 +64,7 @@ export const Features = () => {
     }
 
     return (
-      <section className="px-10 mb-16 md:px-15 lg:px-20 xl:px-35">
+      <section className="px-10 my-16 md:px-15 md:my-20 lg:px-20 lg:my-26 xl:px-35">
           <div className="bg-[#D9D9D9] rounded-lg py-10 container mx-auto max-w-7xl px-4 sm:px-8 lg:px-10">
               <div className="max-w-4xl mx-auto text-center">
                   <h1 className="text-2xl sm:text-4x font-bold text-primary">
