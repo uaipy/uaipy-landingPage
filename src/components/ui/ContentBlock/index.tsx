@@ -22,9 +22,9 @@ const ContentBlock = ({ marginDirection, title, subheading, description, flexDir
                     <h1 className="text-2xl uppercase mb-5 md:text-3xl md:pr-7 lg:pr-0 lg:text-5xl">{title}</h1>
                     <h2 className="uppercase text-xs tracking-widest mb-2">{subheading}</h2>
                 </div>
-                <p className="text-justify text-sm mb-2 lg:text-base lg:max-w-[470px] xl:max-w-[520px]">{description}</p>
+                <p className="text-justify text-sm lg:text-base lg:max-w-[470px] xl:max-w-[520px]">{description}</p>
                 {showBtn && (
-                    <Button variant={btnVariant} size="lg" className={`${btnClassName ?? ""}`}>{btnText}</Button>
+                    <Button variant={btnVariant} size="lg" className={`mt-2 ${btnClassName ?? ""}`}>{btnText}</Button>
                 )}
             </div>
         </div>
