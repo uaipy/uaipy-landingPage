@@ -1,6 +1,7 @@
 import logo from '@/assets/logo.png'
 import { Button } from '@/components/ui/button'
 import 'flowbite'
+import notebook from '@/assets/Elemento_1.svg'
 
 export const Hero = () => {
     return (
@@ -41,7 +42,7 @@ export const Hero = () => {
                     <p className="text-sm mb-2 lg:text-base max-w-[460px]">Saiba mais sobre o nosso projeto, que surgiu a partir da iniciativa “Além do Horizonte” da Receita Federal do Brasil, possibilitando a criação das ideias aqui apresentadas.</p>
                     <Button variant="gradient" size="lg" className="mt-4 cursor-pointer">Conheça+</Button>
                 </div>
-                <img src="https://img.freepik.com/fotos-gratis/representacao-da-experiencia-do-utilizador-e-design-da-interface_23-2150169850.jpg?t=st=1745067658~exp=1745071258~hmac=e1f766fcc3383de1af6425d43c5ac73c9d46c9889b38542f2bdd3d815884c285&w=1060" alt="" className="hidden md:block md:w-80 md:h-80 md:rounded-full md:object-cover lg:w-90 lg:h-90 xl:w-100 xl:h-100"/>
+                <img src={notebook} alt="" className="hidden md:block md:w-80 lg:w-90 xl:w-100"/>
             </div>
         </section>
     )
