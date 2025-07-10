@@ -4,18 +4,18 @@ import Metrics from "@/components/ui/Metrics"
 const metrics = [
     {
         "id": 1,
-        "title": "40+",
+        "title": "4+",
         "description": "Universidades envolvidas"
     },
     {
         "id": 2,
-        "title": "60+",
-        "description": "Projetos iniciados"
+        "title": "15+",
+        "description": "Pessoas envolvidas"
     },
     {
         "id": 3,
-        "title": "10+",
-        "description": "Artigos oficializados"
+        "title": "5+",
+        "description": "Participação em eventos"
     }
 ];
 
