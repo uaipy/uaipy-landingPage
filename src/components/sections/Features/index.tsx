@@ -65,13 +65,13 @@ export const Features = () => {
 
     return (
       <section className="px-10 my-16 md:px-15 md:my-20 lg:px-20 lg:my-26 xl:px-35">
-          <div className="bg-[#D9D9D9] rounded-lg py-10 container mx-auto max-w-7xl px-4 sm:px-8 lg:px-10">
+          <div className="bg-[#000932] rounded-lg py-10 container mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
               <div className="max-w-4xl mx-auto text-center">
-                  <h1 className="text-2xl sm:text-4x font-bold text-primary">
+                  <h1 className="text-2xl sm:text-4x font-bold text-[white]">
                       CONHEÇA NOSSAS APLICAÇÕES!
                   </h1>
-                  <p className="text-sm mt-8 text-primary lg:text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius voluptatum soluta magni deserunt corrupti voluptates neque molestias aperiam rerum? Fuga iusto eos porro at tempore quidem et officiis nostrum.
+                  <p className="text-sm mt-8 text-[white] lg:text-base">
+                    Compacta e eficiente, a UAI.py é capaz de coletar, processar e transmitir informações em tempo real, adaptando-se a diferentes necessidades e contextos. É possível utilizá-la como base para diversas aplicações inteligentes e conectadas. Abaixo temos alguns exemplos de usabilidade:
                   </p>
               </div>
               
