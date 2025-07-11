@@ -9,11 +9,10 @@ interface CarouselProps {
 
 export const Carousel = ({ images, imgClassName }: CarouselProps) => {
     return (
-        <div className="w-full md:max-w-90 lg:max-w-[430px] xl:max-w-[500px]">
+        <div className="realtive w-full md:max-w-90 lg:max-w-[430px] xl:max-w-[500px]">
             <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
+                modules={[Navigation, Autoplay]}
                 navigation
-                pagination={{ clickable: true }}
                 slidesPerView={1}
                 setWrapperSize={true}
                 spaceBetween={20}
