@@ -3,7 +3,7 @@ import { Phone, Mail } from 'lucide-react'
 
 export const Footer = () => {
     return (
-        <footer className="flex flex-col items-start px-10 mb-8 md:px-15 lg:px-20 xl:px-35">
+        <footer className="flex flex-col items-start px-10 mb-8 mt-16 md:px-15 lg:px-20 xl:px-35">
             <div className="flex flex-col w-full max-w[450px] m-auto border-b border-uaipy-primary mb-4 md:flex-row md:justify-between md:items-center">
                 <div className="md:w-full md:max-w-1/2 lg:max-w-2/5 xl:max-w-1/3">
                     <img src={logo} className="w-full max-w-28" alt="" />
