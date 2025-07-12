@@ -3,7 +3,7 @@ import backgroundImage from "@/assets/Banner_bg.svg"
 
 export const RepoRedirect = () => {
     return (
-        <section className="px-10 my-16 md:px-15 md:my-20 lg:px-20 lg:my-26 xl:px-35">
+        <section className="px-10 py-20 md:px-15 lg:px-20 lg:py-24 xl:px-35" id="repoRedirect">
             <div className="rounded-xl text-center py-8 px-3 sm:flex sm:flex-row sm:items-center sm:justify-between sm:text-start sm:px-6 lg:px-12 xl:px-16"
             style={{ backgroundImage: `url(${backgroundImage})` }}>
                 <div className="sm:max-w-[320px] md:max-w-[480px] xl:max-w-[580px]">
