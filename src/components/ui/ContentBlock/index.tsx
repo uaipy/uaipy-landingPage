@@ -1,6 +1,5 @@
 import { Button } from "../button";
 import { Carousel } from "../carousel";
-import { SwiperSlide } from "swiper/react";
 
 type ContentBlockTextProps = {
     marginDirection?: string;
@@ -15,9 +14,10 @@ type ContentBlockTextProps = {
     imgClassName?: string;
     carouselImages?: string[];
     staticImage?: string;
+    linkTo?: string;
 };
 
-const ContentBlock = ({ marginDirection, title, subheading, description, flexDirection, showBtn, btnText, btnVariant, btnClassName, imgClassName, carouselImages, staticImage }: ContentBlockTextProps) => {
+const ContentBlock = ({ marginDirection, title, subheading, description, flexDirection, showBtn, btnText, btnVariant, btnClassName, imgClassName, carouselImages, staticImage, linkTo }: ContentBlockTextProps) => {
     return (
         <div className={`flex md:justify-between items-center ${flexDirection}`}>
             {carouselImages && carouselImages.length > 0 ? (
@@ -36,7 +36,7 @@ const ContentBlock = ({ marginDirection, title, subheading, description, flexDir
                 </div>
                 <p className="text-justify text-sm lg:text-base lg:max-w-[470px] xl:max-w-[700px]">{description}</p>
                 {showBtn && (
-                    <Button variant={btnVariant} size="lg" className={`mt-2 ${btnClassName ?? ""}`}>{btnText}</Button>
+                    <Button variant={btnVariant} size="lg" className={`mt-2 ${btnClassName ?? ""}`}><a href={linkTo}>{btnText}</a></Button>
                 )}
             </div>
         </div>
