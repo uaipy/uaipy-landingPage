@@ -3,7 +3,7 @@ import { CircleCheckBig } from 'lucide-react'
 
 export const Demo = () => {
     return (
-        <section className="flex flex-col items-left px-10 pt-15 sm:flex-row sm:items-center md:px-15 lg:justify-between lg:px-20 xl:px-35">
+        <section className="flex flex-col items-left px-10 pt-15 sm:flex-row sm:items-center md:px-15 lg:justify-between lg:px-20 xl:px-35" id="demo">
             <div className="bg-[#000932] p-6 rounded-lg mb-8 w-full sm:w-6/10 sm:mb-0 lg:w-5/10">
                 <h2 className="text-white mb-5 font-bold">Atributos chave</h2>
                 <div className="flex bg-[#FFFFFA] items-center rounded-lg mb-4 py-2 px-3">
