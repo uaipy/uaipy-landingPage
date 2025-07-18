@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+# uaipy/landing-page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte de uma landing page, provavelmente desenvolvida para o projeto `uaipy`. Ela foi construída utilizando tecnologias modernas de desenvolvimento web, focando em uma experiência de desenvolvimento rápida e eficiente.
 
-Currently, two official plugins are available:
+### Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  * **React**: Uma popular biblioteca JavaScript para construir interfaces de usuário dinâmicas e interativas.
+  * **TypeScript**: Um superconjunto fortemente tipado do JavaScript, que melhora a qualidade do código e a experiência do desenvolvedor.
+  * **Vite**: Uma ferramenta de frontend de próxima geração que oferece um servidor de desenvolvimento extremamente rápido com Hot Module Replacement (HMR) e um processo de build otimizado.
+  * **Tailwind CSS**: Um framework CSS utilitário para construir rapidamente designs personalizados.
+  * **ESLint**: Um utilitário de linting plugável para JavaScript e TypeScript, garantindo a consistência do código e detectando possíveis erros.
+      * Configurado com regras de lint sensíveis a tipos para TypeScript.
+      * Inclui regras de lint específicas para React usando `eslint-plugin-react-x` e `eslint-plugin-react-dom`.
+  * **pnpm**: Um gerenciador de pacotes rápido e eficiente em espaço em disco.
 
-## Expanding the ESLint configuration
+### Principais Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+  * **Pilha de Frontend Moderna**: Aproveita React, TypeScript e Vite para uma aplicação robusta e de alto desempenho.
+  * **Desenvolvimento Rápido**: O hot module replacement do Vite garante feedback rápido durante o desenvolvimento.
+  * **Segurança de Tipo**: TypeScript aprimora a confiabilidade e a manutenibilidade do código.
+  * **Estilização Utility-First**: Tailwind CSS oferece uma maneira flexível e eficiente de estilizar a landing page.
+  * **Qualidade do Código**: A integração com ESLint ajuda a manter altos padrões e consistência no código.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+-----
+
+### Primeiros Passos
+
+Para ter uma cópia local funcionando, siga estes passos simples.
+
+#### Pré-requisitos
+
+Certifique-se de ter o [Node.js](https://nodejs.org/en/) e o [pnpm](https://pnpm.io/installation) instalados em sua máquina.
+
+#### Instalação
+
+1.  Clone o repositório:
+    ```bash
+    git clone https://github.com/uaipy/landing-page.git
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd landing-page
+    ```
+3.  Instale as dependências:
+    ```bash
+    pnpm install
+    ```
+
+#### Executando o Servidor de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento:
+
+```bash
+pnpm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Isso geralmente abrirá a aplicação em seu navegador em `http://localhost:5173` (ou outra porta disponível).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+#### Construindo para Produção
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Para construir a aplicação para produção:
+
+```bash
+pnpm run build
 ```
+
+Este comando criará um diretório `dist` contendo a build otimizada para produção.
+
+### Estrutura do Projeto
+
+  * `.editorconfig`: Define e mantém estilos de codificação consistentes.
+  * `.env.example`: Um arquivo de exemplo para configurar variáveis de ambiente.
+  * `.gitignore`: Especifica arquivos intencionalmente não rastreados para ignorar.
+  * `pnpm-lock.yaml`: Arquivo de lock gerado pelo pnpm, garantindo versões consistentes das dependências.
+  * `tailwind.config.js`: Arquivo de configuração do Tailwind CSS.
+
+Para mais detalhes, você pode explorar o [repositório uaipy/landing-page no GitHub](https://github.com/uaipy/landing-page).
