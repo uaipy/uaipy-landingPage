@@ -6,6 +6,7 @@ import { ProjectConcept } from "./components/sections/ProjectConcept";
 import { Team } from "./components/sections/Team";
 import { RepoRedirect } from "./components/sections/RepoRedirect";
 import { TechEvents } from "./components/sections/TechEvents";
+import { Demo } from "./components/sections/Demo";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
           <Team />
           <RepoRedirect />
           <TechEvents />
+          <Demo />
           <Footer />
         </ThemeProvider>
     );
